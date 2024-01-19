@@ -1,35 +1,3 @@
-
-.gototop {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: 0.5s;
-    -o-transition: 0.5s;
-    transition: 0.5s;
-}
-.gototop.active {
-  opacity: 1;
-  visibility: visible;
-}
-		
-.icon-arrow-up:before {
-  content: "\e096";
-}
-
-td{
-width: auto;
-}
-
-.no-edge{
-	
-}
-	
-
-	
-/*		additional Style END */		
 		
 * {
     box-sizing: border-box;
@@ -176,4 +144,138 @@ p {
 .row-13 .column-1 {
     padding: 25px 0 20px !important;
 }
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body.portal {
+    text-align: center;
+    margin: 0;
+    height: 100%;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    
+    background: url("background.png") 0% 0% / cover no-repeat;
+}
+
+.logo-img {
+    padding-top: 10%;
+    width: 100%;
+    height: 35%;
+    z-index: 10;
+    position: relative;
+}
+
+.oper-section-outer {
+    height: 40%;
+    width: 100%;
+    z-index: 10;
+	display: block;
+    position: relative;	
+	
+}
+
+.oper-section-inner {
+    display: block;
+    width: 85%;
+    vertical-align: middle;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.oper-section-item {
+    height: 50px;
+    width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#input-phone-num {
+    margin-bottom: 12px;
+}
+
+.add {
+    display: inline-block;
+    background-color: #0492eb;
+    border-radius: 5px 0 0 5px;
+    height: 42px;
+    line-height: 40px;
+    width: 20px;
+}
+
+#country-code{
+    height: 42px;
+    width: 40px;
+    border-radius: 0;
+    color: #fff;
+    background-color: #0492eb;
+}
+
+#phone-number{
+    border-radius: 0 5px 5px 0;
+    height: 42px;
+    width: 85%;
+    
+}
+
+#input-verify-code {
+    margin-bottom: 12px;
+}
+
+#verify-code {
+    border-radius: 5px 0 0 5px;
+    height: 42px;
+    width: 80%;
+    vertical-align: top;
+}
+
+#get-code {
+    display: inline-block;
+    height: 42px;
+    width: 100px;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    background-color: #0492eb;
+}
+
+.password {
+    background:none;  
+    outline:none;  
+    border:none;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.input {
+    background:none;  
+    outline:none;  
+    border:none;
+    border-radius: 2px;	
+    padding-left: 10px;
+    background-color: #fff;
+}
+
+.button {
+    background-color: rgba(132,255,33,0.70);
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 50px;
+    outline: none;
+    border: none;
+	border-radius: 20px;
+	
 }
