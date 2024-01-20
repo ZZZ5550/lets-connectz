@@ -279,3 +279,14 @@ body.portal {
 	border-radius: 20px;
 	
 }
+
+.text-4 {
+  color: #393d47;
+  font-family: 'Oswald', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: calc(10px + 2vw);
+  line-height: 120%;
+  text-align: left;
+  mso-line-height-alt: 16.8px;
+  padding: 10px;
+	text-align: left;
+}
